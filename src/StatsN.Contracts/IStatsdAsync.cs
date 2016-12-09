@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace StatsN
 {
-    public interface IStatsdAsync
+    public interface IStatsdAsync : IDisposable
     {
         /// <summary>
         /// Simple Counter
