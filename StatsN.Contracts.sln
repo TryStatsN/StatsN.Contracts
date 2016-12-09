@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{457C1332-0A9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{100BFE8D-4730-4F28-A007-C02029E4F2C3}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
 		global.json = global.json
+		update-projectjson.ps1 = update-projectjson.ps1
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StatsN.Contracts", "src\StatsN.Contracts\StatsN.Contracts.xproj", "{2EEFB090-42A5-4CD7-A30B-DB28EBE8C3F0}"

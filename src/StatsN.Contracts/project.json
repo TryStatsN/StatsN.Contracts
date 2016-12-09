@@ -2,12 +2,45 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "NETStandard.Library": "1.6.0"
   },
-
+   "packOptions": {
+    "owners": [
+      "Tommy Parnell"
+    ],
+    "projectUrl": "https://github.com/TerribleDev/StatsN",
+    "summary": "A modern statsd client for dotnet core and dotnet 4.5",
+    "licenseUrl": "https://raw.githubusercontent.com/TerribleDev/StatsN/master/LICENSE",
+    "iconUrl": "https://raw.githubusercontent.com/TryStatsN/StatsN/master/img/StatsN.png",
+    "tags": [
+      "stastd",
+      "stats",
+      "instrumentation",
+      "dotnet core",
+      ".net core",
+      "core",
+      "statistics",
+      "dotnet 4.5",
+      ".net 4.5"
+    ]
+   },
   "frameworks": {
-    "netstandard1.6": {
-      "imports": "dnxcore50"
+    "net45": {
+      "buildOptions": {
+      }
+    },
+    "net40": {
+      "frameworkAssemblies": {
+      },
+      "dependencies": {
+      },
+      "buildOptions": {
+      }
+    },
+    "netstandard1.3": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
     }
   }
 }
