@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StatsN.Contracts
+namespace StatsN
 {
     public interface IStatsdSync
     {
