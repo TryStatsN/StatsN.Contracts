@@ -2,7 +2,7 @@
 
 namespace StatsN
 {
-    public interface IStatsdSync
+    public interface IStatsdSync : IDisposable
     {
         /// <summary>
         /// Simple Counter
